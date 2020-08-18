@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html">VAMAX MOBIL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/main.html">Elérhetőség! <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">Regisztráció!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cash.html">Árak!</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            VAMAX MOBIL KFT!
+          </span>
+        </div>
+      </nav>
+      <h6>Regisztráció!</h6>
+      
+      <form action="mailto:valaki@valahol"  method="post" name="kerdoiv" enctype="text/plain">
+        <fieldset>
+          <p>Kedves Látogatónk! Kérjük regisztráljon az alábbi adatok megadásával!</p>
+          <p>
+            <label for="azonosito"><strong>Azonosító*:</strong></label>
+            <input type="text" size="10" name="azonosito" id="azonosito" required maxlength="10">
+          </p>
+          <p>
+            <label for="jelszo"><strong>Jelszó*:</strong></label>
+            <input type="password" size="10" name="jelszo" id="jelszo"  maxlength="10" required>
+          </p>
+          <p>
+            <label for="jelszoell"><strong>Jelszó még egyszer*:</strong></label>
+            <input type="password" size="10" name="jelszoell" id="jelszoell"  maxlength="10" required>
+          </p>
+          <p>
+            <label for="emailcim"><strong>E-mail cím*:</strong></label>
+            <input type="email" size="30" name="emailcim" id="emailcim" required>
+          </p>
+          <p>
+            <label for="telefonszam"><strong>Telefonszám:</strong><br>
+              Formátum: +36(körzetszám)123-4567</label>
+            <input type="tel" size="15" name="telefonszam" id="telefonszam"  maxlength="15" placeholder="+36(99)123-456" pattern="[\+]36[\(]\d{1,2}[\)]\d{3}[\-]\d{3,4}">
+          </p>
+          
+          <p>
+            <input type="submit" value="Elküld">
+            <input type="reset" value="Alaphelyzetbe állít">
+          </p>
+        </fieldset>
+      </form>
+     
+    
+</body>
+</html>

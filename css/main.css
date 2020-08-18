@@ -1,0 +1,39 @@
+body{
+    background-color:grey;
+    
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    font-style: italic;
+}
+
+table{
+    font-style:italic;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+td{
+    font-size: 80%;
+    padding: 6px 20px 6px 20px;
+    font-weight: bolder;
+    }
+
+
+#faceImg{
+    width: 7%;
+    margin-left: 46%;
+    margin-bottom: 10px;
+    }
+
